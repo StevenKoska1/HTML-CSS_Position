@@ -1,14 +1,52 @@
 :root {
-    --dark-background: #23374d;
+    --background-color: #23374d;
     --border-color: #eeeeee;
+    --text-color: #e5e5e5;
 }
 
-html{
-    background-color: var(--dark-background);
+body{
+    background-color: var(--background-color);
+    
 }
+
 
 .main-container{
     height: 800px;
-    widows: 800px;
+    width: 800px;
     border: 2px solid var(--border-color);
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.text{
+    font-family: 'Vibes', cursive;
+    color: var(--text-color);
+    font-size: 3rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    
+}
+
+img{
+    position: absolute;
+}
+.mountain{
+    bottom:20%;
+    right: 15%;
+}
+
+.cloud1{
+    top: 30%;
+    left: 30%;
+}
+.cloud2{
+    top: 40%;
+    left: 50%;
+}
+.cloud3{
+    top: 40%;
+    left: 15%;
 }
